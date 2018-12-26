@@ -17,6 +17,7 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import { mainListItems, secondaryListItems } from './listItems';
 import SimpleLineChart from './SimpleLineChart';
 import SimpleTable from './SimpleTable';
+import Steps from './Fitness/Steps';
 
 const drawerWidth = 240;
 
@@ -179,6 +180,7 @@ class Dashboard extends React.Component {
           <div className={classes.tableContainer}>
             <SimpleTable />
           </div>
+          <Steps />
         </main>
       </div>
     );
